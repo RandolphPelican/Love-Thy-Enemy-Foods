@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Love Thy Enemy Foods</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <header>
+    <h1>Love Thy Enemy Foods</h1>
+    <nav>
+      <a href="/">Home</a>
+      <a href="/humble-pie">Humble Pie</a>
+    </nav>
+  </header>
+  <main>
+    {% block content %}{% endblock %}
+  </main>
+  <footer>
+    <p>&copy; 2025 Love Thy Enemy Foods</p>
+  </footer>
+</body>
+</html>
